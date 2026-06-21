@@ -1,75 +1,128 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SARATH RAJEEV</title>
-    <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sarath Rajeev — Intimate Wedding Photographer</title>
+<meta name="description" content="Sarath Rajeev photographs intimate weddings. Full-day coverage, one photographer, unhurried storytelling.">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;1,9..144,400;1,9..144,500&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <section class="hero-section">
-        <header>
-            <div class="logo">SARATH RAJEEV</div>
-            <nav class="desktop-nav">
-                <a href="#">Home</a>
-                <a href="#" class="active">portfolio</a>
-                <a href="#">Films</a>
-                <a href="#">About</a>
-                <a href="#">connect</a>
-            </nav>
-            <div class="hamburger" id="hamburger-menu">
-                <div class="line"></div>
-                <div class="line"></div>
-                <div class="line"></div>
-            </div>
-        </header>
+<nav class="qa-nav" id="qaNav">
+  <a href="#top" class="qa-logo">Sarath Rajeev</a>
+  <ul class="qa-nav-links" id="qaNavLinks">
+    <li><a href="#portfolio">Portfolio</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+  <button class="qa-nav-toggle" id="qaNavToggle" aria-label="Toggle menu" aria-expanded="false">
+    <span></span><span></span><span></span>
+  </button>
+</nav>
 
-        <div class="scroll-down">
-            <svg width="40" height="20" viewBox="0 0 40 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M2 2L20 18L38 2" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-            </svg>
-        </div>
-    </section>
+<header class="qa-hero" id="top">
+  <div class="qa-hero-bg" role="img" aria-label="Wedding photograph background"></div>
+  <div class="qa-hero-overlay"></div>
+  <div class="qa-hero-content">
+    <span class="qa-hero-name">Sarath Rajeev</span>
+    <h1>Intimate Wedding Photographer</h1>
+    <div class="qa-hero-actions">
+      <a href="#portfolio" class="qa-btn qa-btn--light">View Portfolio</a>
+    </div>
+  </div>
+</header>
 
-    <div class="mobile-menu-overlay" id="mobile-menu">
-        <div class="close-btn" id="close-menu">✕</div>
-        <nav class="mobile-nav">
-            <a href="#">Home</a>
-            <a href="#">portfolio</a>
-            <a href="#">Films</a>
-            <a href="#">About</a>
-            <a href="#">connect</a>
-        </nav>
+<section class="qa-portfolio" id="portfolio">
+  <div class="qa-wrap">
+    <div class="qa-section-head reveal">
+      <span class="qa-eyebrow">Selected Work</span>
+      <h2>Recent Weddings</h2>
     </div>
 
-    <main class="gallery-container">
-        <div class="gallery-item">
-            <img src="pic1.jpg" alt="Image 1">
-            <p>Prerna & Kunal</p>
-        </div>
-        <div class="gallery-item">
-            <img src="pic2.jpg" alt="Image 2">
-            <p>Namitha & Avinash</p>
-        </div>
-        <div class="gallery-item">
-            <img src="pic3.jpg" alt="Image 3">
-            <p>Jahanavi & Daniel</p>
-        </div>
-        <div class="gallery-item">
-            <img src="pic4.jpg" alt="Image 4">
-            <p>Deepak & Aarushi</p>
-        </div>
-        <div class="gallery-item">
-            <img src="pic5.jpg" alt="Image 5">
-            <p>Riya & Pratyush</p>
-        </div>
-        <div class="gallery-item">
-            <img src="pic6.jpg" alt="Image 6">
-            <p>Mariyam Brunch</p>
-        </div>
-    </main>
+    <div class="qa-gallery reveal" id="qaGallery">
+      <div class="qa-tile qa-tile--tall" tabindex="0"><span class="qa-tile-caption"><span class="qa-tile-num">No. 001</span><span class="qa-tile-label">Wedding — Munnar</span></span></div>
+      <div class="qa-tile qa-tile--square" tabindex="0"><span class="qa-tile-caption"><span class="qa-tile-num">No. 002</span><span class="qa-tile-label">Wedding — Fort Kochi</span></span></div>
+      <div class="qa-tile qa-tile--wide" tabindex="0"><span class="qa-tile-caption"><span class="qa-tile-num">No. 003</span><span class="qa-tile-label">Wedding — Goa</span></span></div>
+      <div class="qa-tile qa-tile--square" tabindex="0"><span class="qa-tile-caption"><span class="qa-tile-num">No. 004</span><span class="qa-tile-label">Wedding — Alleppey</span></span></div>
+      <div class="qa-tile qa-tile--tall" tabindex="0"><span class="qa-tile-caption"><span class="qa-tile-num">No. 005</span><span class="qa-tile-label">Wedding — Wayanad</span></span></div>
+      <div class="qa-tile qa-tile--wide" tabindex="0"><span class="qa-tile-caption"><span class="qa-tile-num">No. 006</span><span class="qa-tile-label">Wedding — Udaipur</span></span></div>
+      <div class="qa-tile qa-tile--square" tabindex="0"><span class="qa-tile-caption"><span class="qa-tile-num">No. 007</span><span class="qa-tile-label">Wedding — Kumarakom</span></span></div>
+      <div class="qa-tile qa-tile--tall" tabindex="0"><span class="qa-tile-caption"><span class="qa-tile-num">No. 008</span><span class="qa-tile-label">Wedding — Coorg</span></span></div>
+      <div class="qa-tile qa-tile--wide" tabindex="0"><span class="qa-tile-caption"><span class="qa-tile-num">No. 009</span><span class="qa-tile-label">Wedding — Pondicherry</span></span></div>
+      <div class="qa-tile qa-tile--square" tabindex="0"><span class="qa-tile-caption"><span class="qa-tile-num">No. 010</span><span class="qa-tile-label">Wedding — Bekal</span></span></div>
+      <div class="qa-tile qa-tile--tall" tabindex="0"><span class="qa-tile-caption"><span class="qa-tile-num">No. 011</span><span class="qa-tile-label">Wedding — Kovalam</span></span></div>
+      <div class="qa-tile qa-tile--square" tabindex="0"><span class="qa-tile-caption"><span class="qa-tile-num">No. 012</span><span class="qa-tile-label">Wedding — Varkala</span></span></div>
+    </div>
+  </div>
+</section>
 
-    <script src="script.js"></script>
+<section class="qa-words" id="words">
+  <div class="qa-words-inner">
+    <span class="qa-eyebrow reveal">Client Words</span>
+    <div class="qa-quote is-active">
+      <p>"Placeholder testimonial 1 — replace this with a real quote from a couple about their experience working with Sarath."</p>
+      <cite>— Couple Name 1, Location</cite>
+    </div>
+    <div class="qa-quote">
+      <p>"Placeholder testimonial 2 — replace this with a real quote from a couple about their experience working with Sarath."</p>
+      <cite>— Couple Name 2, Location</cite>
+    </div>
+    <div class="qa-quote">
+      <p>"Placeholder testimonial 3 — replace this with a real quote from a couple about their experience working with Sarath."</p>
+      <cite>— Couple Name 3, Location</cite>
+    </div>
+    <div class="qa-quote">
+      <p>"Placeholder testimonial 4 — replace this with a real quote from a couple about their experience working with Sarath."</p>
+      <cite>— Couple Name 4, Location</cite>
+    </div>
+    <div class="qa-quote">
+      <p>"Placeholder testimonial 5 — replace this with a real quote from a couple about their experience working with Sarath."</p>
+      <cite>— Couple Name 5, Location</cite>
+    </div>
+    <div class="qa-words-nav">
+      <button class="qa-words-arrow" id="qaPrev" aria-label="Previous testimonial">‹</button>
+      <div class="qa-dots" id="qaDots">
+        <button class="qa-dot is-active" data-i="0" aria-label="Testimonial 1"></button>
+        <button class="qa-dot" data-i="1" aria-label="Testimonial 2"></button>
+        <button class="qa-dot" data-i="2" aria-label="Testimonial 3"></button>
+        <button class="qa-dot" data-i="3" aria-label="Testimonial 4"></button>
+        <button class="qa-dot" data-i="4" aria-label="Testimonial 5"></button>
+      </div>
+      <button class="qa-words-arrow" id="qaNext" aria-label="Next testimonial">›</button>
+    </div>
+  </div>
+</section>
+
+<section class="qa-contact reveal" id="contact">
+  <div class="qa-contact-inner">
+    <span class="qa-eyebrow">Get in Touch</span>
+    <h2>Let's Hear From You</h2>
+    <p>Worked with me on your day? I'd love to hear how it felt on your end.</p>
+    <a href="mailto:hello@sarathrajeev.com?subject=Feedback" class="qa-btn qa-btn--dark">Share Your Experience</a>
+    <ul class="qa-contact-info">
+      <li><span>Email</span><a href="mailto:hello@sarathrajeev.com">hello@sarathrajeev.com</a></li>
+      <li><span>WhatsApp</span><a href="https://wa.me/910000000000" target="_blank" rel="noopener">+91 00000 00000</a></li>
+      <li><span>Instagram</span><a href="#">@sarathrajeev.photography</a></li>
+    </ul>
+  </div>
+</section>
+
+<footer class="qa-footer">
+  <span>© 2026 Sarath Rajeev Photography</span>
+  <ul class="qa-footer-links">
+    <li><a href="#">Instagram</a></li>
+    <li><a href="https://wa.me/910000000000" target="_blank" rel="noopener">WhatsApp</a></li>
+    <li><a href="mailto:hello@sarathrajeev.com">Email</a></li>
+  </ul>
+  <a href="#top" class="qa-back-top">Back to top ↑</a>
+</footer>
+
+<script src="script.js"></script>
+
 </body>
 </html>

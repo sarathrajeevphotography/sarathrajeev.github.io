@@ -157,6 +157,7 @@ button{ font-family: inherit; }
 .qa-hero-bg{
   position:absolute; inset:0;
   z-index:0;
+  background-image: url("pic-bg.jpg");
   background-size: cover;
   background-position: center;
   opacity: 0.3;

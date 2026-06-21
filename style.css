@@ -101,21 +101,13 @@ button{ font-family: inherit; }
   color: var(--ink);
 }
 .qa-logo{
-  display: flex;
-  align-items: center;
-  text-decoration: none;
-  color: inherit;
-
   font-family: var(--display);
   font-style: italic;
   font-weight: 500;
+  font-size: 1.3rem;
   letter-spacing: 0.01em;
-}
-
-.qa-logo img{
-  display: block;
-  height: clamp(50px, 6vw, 90px);
-  width: auto;
+  text-decoration:none;
+  color: inherit;
 }
 .qa-nav-links{
   display:flex;

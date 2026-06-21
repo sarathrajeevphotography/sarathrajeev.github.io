@@ -41,38 +41,19 @@
   <div class="qa-wrap">
     <div class="qa-section-head reveal">
       <h2>Recent Weddings</h2>
-      <p class="qa-section-sub">Select a story to view the complete gallery</p>
     </div>
 
-    <div class="qa-stories reveal" id="qaStories"></div>
+    <div class="qa-gallery reveal" id="qaGallery">
+      <div class="qa-tile qa-tile--tall" tabindex="0"><span class="qa-tile-caption"><span class="qa-tile-num">No. 001</span><span class="qa-tile-label">Wedding — Munnar</span></span></div>
+      <div class="qa-tile qa-tile--tall" tabindex="0"><span class="qa-tile-caption"><span class="qa-tile-num">No. 002</span><span class="qa-tile-label">Wedding — Fort Kochi</span></span></div>
+      <div class="qa-tile qa-tile--tall" tabindex="0"><span class="qa-tile-caption"><span class="qa-tile-num">No. 003</span><span class="qa-tile-label">Wedding — Goa</span></span></div>
+      <div class="qa-tile qa-tile--tall" tabindex="0"><span class="qa-tile-caption"><span class="qa-tile-num">No. 004</span><span class="qa-tile-label">Wedding — Alleppey</span></span></div>
+      <div class="qa-tile qa-tile--tall" tabindex="0"><span class="qa-tile-caption"><span class="qa-tile-num">No. 005</span><span class="qa-tile-label">Wedding — Wayanad</span></span></div>
+      <div class="qa-tile qa-tile--tall" tabindex="0"><span class="qa-tile-caption"><span class="qa-tile-num">No. 006</span><span class="qa-tile-label">Wedding — Udaipur</span></span></div>
+      <div class="qa-tile qa-tile--tall" tabindex="0"><span class="qa-tile-caption"><span class="qa-tile-num">No. 007</span><span class="qa-tile-label">Wedding — Kumarakom</span></span></div>
+      <div class="qa-tile qa-tile--tall" tabindex="0"><span class="qa-tile-caption"><span class="qa-tile-num">No. 008</span><span class="qa-tile-label">Wedding — Coorg</span></span></div>
   </div>
 </section>
-
-<!-- ============================================================
-     WEDDING STORY GALLERY OVERLAY
-     Opens when a portfolio card above is clicked. Populated
-     entirely from the weddingStories array in script.js.
-     ============================================================ -->
-<div class="qa-lightbox" id="qaLightbox" aria-hidden="true">
-  <div class="qa-lightbox-scrim" data-close></div>
-  <div class="qa-lightbox-panel" role="dialog" aria-modal="true" aria-label="Wedding gallery">
-    <header class="qa-lightbox-head">
-      <div>
-        <span class="qa-lightbox-name" id="qaLbName"></span>
-        <span class="qa-lightbox-meta" id="qaLbMeta"></span>
-      </div>
-      <button class="qa-lightbox-close" id="qaLbClose" aria-label="Close gallery">×</button>
-    </header>
-    <div class="qa-lightbox-grid" id="qaLbGrid"></div>
-  </div>
-
-  <div class="qa-viewer" id="qaViewer" aria-hidden="true">
-    <button class="qa-viewer-close" id="qaViewerClose" aria-label="Close image">×</button>
-    <button class="qa-viewer-arrow qa-viewer-prev" id="qaViewerPrev" aria-label="Previous photo">‹</button>
-    <img class="qa-viewer-img" id="qaViewerImg" src="" alt="">
-    <button class="qa-viewer-arrow qa-viewer-next" id="qaViewerNext" aria-label="Next photo">›</button>
-  </div>
-</div>
 
 <section class="qa-words" id="words">
   <div class="qa-words-inner">

@@ -159,7 +159,7 @@ button{ font-family: inherit; }
   z-index:0;
   background-image: url("pic-bg.jpg");
   background-size: cover;
-  background-position: center;
+  background-position: 30% 15%;
   opacity: 0.3;
 }
 .qa-hero-overlay{

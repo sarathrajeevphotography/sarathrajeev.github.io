@@ -240,7 +240,7 @@ button{ font-family: inherit; }
    PORTFOLIO
    ============================================================ */
 .qa-portfolio{
-  padding: var(--section-pad) var(--pad);
+  padding: 6rem 0 8rem;
   background: var(--white); 
 }
 .qa-section-head{
